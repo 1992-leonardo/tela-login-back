@@ -30,7 +30,6 @@ public class ClienteController {
         return ResponseEntity.ok(clientes);
     }
 
-
     // Retorna um cliente pelo ID.
     @GetMapping("/{id}")
     public ResponseEntity<Cliente> buscarClientePorId(@PathVariable Long id) {

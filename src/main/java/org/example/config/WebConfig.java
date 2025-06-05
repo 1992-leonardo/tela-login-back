@@ -20,3 +20,6 @@ public class WebConfig {
         };
     }
 }
+
+
+// Essa classe, ela aponta para a URL que foi criada no front, e faz o "crud"
